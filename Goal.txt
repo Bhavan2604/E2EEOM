@@ -1,0 +1,4 @@
+Required Functionality:
+1. Web GUI To read and send messages in normal language
+2. Encoder and Sender: Get sent message from web gui and encode it into base 64 then with the reciever's public key. and then send it over the matrix network, preferably using API.
+3. Decoder and retriever: Get message from server, decode it with private key, then make it into UTF-8 from base64 then show it on web GUI.
